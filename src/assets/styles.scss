@@ -1,0 +1,116 @@
+// ---------- COMMON ----------- //
+
+$bg-blue: #2880ba;
+$bg-yellow: #f39c14;
+$bg-green: #008b3f;
+$bg-red: #e83f2e;
+$bg-red-dark: #c03a2b;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #F8F8F8;
+  .abs {
+    position: absolute;
+  }
+  .rel {
+    position: relative;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .full {
+    width: 100%;
+  }
+  .full-h {
+    height: 100%;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #eee;
+  }
+  .my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto
+  }
+  .img-full {
+    width: 100%;
+    height: auto
+  }
+  hr.subtitle {
+    width: 20%;
+    &.small {
+      width: 10%;
+    }
+  }
+
+// ---------- FONTS ----------- //
+  .fw {
+    &-300 {
+      font-weight: 300;
+    }
+    &-400 {
+      font-weight: 400;
+    }
+    &-600 {
+      font-weight: 600;
+    }
+  }
+  .roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  .nunito {
+    font-family: 'Nunito', sans-serif;
+  }
+  .txtCenter {
+    text-align: center;
+  }
+  .txtRight {
+    text-align: right;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .w-space {
+    white-space: pre-wrap;
+  }
+// ---------- FLEX ----------- //
+  .jc-end {
+    justify-content: end;
+  }
+  .jc-start {
+    justify-content: start;
+  }
+  .jc-sb {
+    justify-content: space-between;
+  }
+  .jc-sa {
+    justify-content: space-around;
+  }
+  .jc-center {
+    justify-content: center;
+  }
+  .flex-none {
+    flex: none !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .flex.sm6 {
+  width: 50%;
+  }
+}
+
+// ---------- VUETIFY ----------- //
+.chip .chip__content {
+  cursor: pointer;
+}
